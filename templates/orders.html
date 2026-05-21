@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Orders</title>
+
+</head>
+
+<body>
+
+<h1>Order History</h1>
+
+{% for item in orderitems %}
+
+<h2>{{ item.food_name }}</h2>
+
+<h3>₹{{ item.price }}</h3>
+
+<hr>
+
+{% endfor %}
+
+</body>
+
+</html>

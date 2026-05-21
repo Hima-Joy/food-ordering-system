@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Login</title>
+
+    <style>
+
+        body{
+            font-family:Arial;
+            background:linear-gradient(to right,#36d1dc,#5b86e5);
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            height:100vh;
+        }
+
+        .login-box{
+            background:white;
+            padding:40px;
+            border-radius:10px;
+            width:350px;
+            box-shadow:0px 0px 15px gray;
+        }
+
+        h2{
+            text-align:center;
+            color:#5b86e5;
+        }
+
+        input{
+            width:100%;
+            padding:12px;
+            margin-top:10px;
+            border:1px solid #ccc;
+            border-radius:5px;
+        }
+
+        button{
+            width:100%;
+            padding:12px;
+            margin-top:20px;
+            background:#5b86e5;
+            color:white;
+            border:none;
+            border-radius:5px;
+            font-size:16px;
+        }
+
+        button:hover{
+            background:#4364f7;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="login-box">
+
+    <h2>User Login</h2>
+
+    <form method="POST">
+
+        <input type="email" name="email" placeholder="Enter Email">
+
+        <input type="password" name="password" placeholder="Enter Password">
+
+        <button type="submit">Login</button>
+
+    </form>
+
+</div>
+
+</body>
+</html>
