@@ -5,9 +5,9 @@ import bcrypt
 app = Flask(__name__)
 app.secret_key = "foodsecretkey"
 conn = mysql.connector.connect(
-    host="host.docker.internal",
-    user="root",
-    password="123456",
+    host="fooddb.chgm88ukgqfq.eu-north-1.rds.amazonaws.com",
+    user="admin",
+    password="Himajoy123*",
     database="fooddb"
 )
 
